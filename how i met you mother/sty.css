@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Nunito&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+:root{
+    --cor1 : #005F73;
+    --cor2 : #001219;
+    --cor3 : #0A9396;
+
+}
+
+
+.container{
+    display: grid;
+    height: 100%;
+    width: 100vw;
+    background-color: #00070a;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    
+}
+  
+
+
+.alinhamento{
+    margin: 50px ;
+    display: flex;
+    height: 80%;
+    background-color: var(--cor2);
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.329);
+    
+}
+
+.video{
+    background-color: rgb(150, 150, 150);
+    height: 100%;
+    width: 60%;
+}
+.tabela{  
+    width: 50%;
+}
+
+.mini-heder{
+    height: 00px;
+    margin: 45px 20px 
+}
+.mini-heder h1{
+    
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.episodios{
+    height: 91%;
+    padding-top: 35px;
+    overflow-y: scroll;
+    margin-left: 20px;
+    
+}
+
+.bloco-ep{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.bloco-ep h1{
+    font-size: 1.2em;
+    margin-left: 13px;
+}
+
+video{
+    height: 10px;
+    width: 10px;
+    margin-top: 100px;
+}
+  button{
+    border: none;
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+  }
+
+
+  @media (max-width:776px){
+    
+        .episodios{
+            margin-top: 100px;
+            height: 80%;
+            overflow-y: scroll;
+            margin-left: 20px;
+            
+        }
+        .episodios{
+            margin-top: 80px;
+            height: 65%;
+            overflow-y: scroll;
+            margin-left: 20px;
+            
+        }
+        
+        .alinhamento{
+            height: 60%;   
+        }
+    
+
+  }
+
+  @media (max-width:751px){
+    
+    .episodios{
+             height: 75%;
+        }
+
+        .mini-heder{
+           
+            margin-left: 20px;
+            margin-right: 20px; 
+            margin-bottom: -10px;
+            margin-top: -1px;
+        }
+}
