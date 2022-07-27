@@ -23,7 +23,14 @@ header{
 
 .Recomendados{
     display: flex;
+    overflow-x: scroll;
     
+}
+
+.Recomendados::-webkit-scrollbar{
+    background-color: rgba(44, 44, 44, 0.048);
+    border-radius: 10px;
+    height: 5px;
 }
 
 
