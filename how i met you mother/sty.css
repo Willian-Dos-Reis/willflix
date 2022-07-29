@@ -12,7 +12,9 @@
     --cor3 : #0A9396;
 
 }
-
+body{
+    background-color: #00070a;
+}
 
 .container{
     display: grid;
@@ -57,12 +59,18 @@
     overflow-y: scroll;
     margin-left: 20px;
     
+    
+}
+.episodios:hover > .bloco-ep{
+    display: block;
+    
 }
 
 .bloco-ep{
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+    display: none;
 }
 
 .bloco-ep h1{
