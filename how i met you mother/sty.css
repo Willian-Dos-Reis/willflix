@@ -24,7 +24,6 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     
-    
 }
   
 
@@ -44,6 +43,7 @@ body{
     background-image: url(poster.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: fixed;
 
 
 }
@@ -61,16 +61,12 @@ body{
     
     
 }
-.episodios:hover > .bloco-ep{
-    display: block;
-    
-}
+
 
 .bloco-ep{
     display: flex;
     align-items: center;
     margin-bottom: 5px;
-    display: none;
 }
 
 .bloco-ep h1{
