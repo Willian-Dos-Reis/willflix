@@ -1,0 +1,61 @@
+body{
+    background-color: #000000;
+  
+}
+.container{
+    display: grid;
+    background-color: #0f0000;
+    height: 90vh;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 5px 8px 40px black inset;
+    border-radius: 20px;
+    
+  
+   
+}
+
+.video{ 
+    background-color: rgb(255, 253, 253);
+    height: 65vh;
+    width: 100%;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+}
+.proximo{ 
+    background-color: #00070a;
+    height: 60px;
+    width: 80px;
+    color: rgb(255, 253, 253);
+    border-radius: 20px;
+    box-shadow: 1px 1px 0px black;
+}
+
+.proximo:active{
+    box-shadow: 5px 8px 40px black inset;
+}
+
+a{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+h1{
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+}
