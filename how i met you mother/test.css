@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .fundo{
     height: 100vh;
@@ -67,7 +67,7 @@ img{
 .alinhar{
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    
     padding: 10px 0px;
 }
 
@@ -77,10 +77,8 @@ img{
 }
 
 footer{
-    display: flex;
     height: 60px;
-    justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     background-color: black;
     color: white;
     box-shadow: 10px 10px 10px 25px black ;
@@ -91,12 +89,41 @@ footer > li {
     font-style: none;
 }
 
-.bloco-ep{
-    text-align: center;
-    height: 100px;
-    width: 200px;
-    margin: 20px 1px;
-    border-radius: 10px;
+.tp{
+    text-indent: 20px;
 }
 
+.bloco-ep{
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0px 0px;
+}
 
+.h{
+    margin: 10px 0px;
+    display: flex;
+    overflow-x: scroll;
+    
+}
+
+.h::-webkit-scrollbar{
+    width: 4px;
+    background-color: rgb(48, 0, 0);
+    height: 4px;
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(206, 0, 0);
+    border-radius: 10px;
+    width: 1px;
+ }
+a{
+    padding: 0px 20px;
+    width: 200px;
+}
