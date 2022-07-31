@@ -34,6 +34,17 @@ img{
     width: 100%;
 }
 
+.apro{
+    color: green;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.idade{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
 .home{
     display: flex;
     justify-content: center;
