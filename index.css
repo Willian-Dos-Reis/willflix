@@ -28,7 +28,13 @@ header{
 }
 
 .Recomendados::-webkit-scrollbar{
-    background-color: rgba(44, 44, 44, 0.952);
+    background-color: rgba(153, 0, 0, 0.473);
+    border-radius: 10px;
+    height: 5px;
+}
+
+.Recomendados::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 0, 0);
     border-radius: 10px;
     height: 5px;
 }
